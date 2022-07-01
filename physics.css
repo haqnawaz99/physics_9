@@ -1,0 +1,59 @@
+.phy{
+    color:white;
+    text-align: center;
+    font-size: 55px;
+}
+.mainDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   
+}
+.chilDiv{
+    background-color: lightskyblue;
+    text-align: center;
+    margin:0px;
+    border-radius: 10px;
+}
+.chilDiv:hover{
+    background-color: rgb(10, 4, 124);
+    color:white;
+}
+.linkPage{
+    text-align: center;
+    font-size: 30px;
+    background-color: lightskyblue;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+}
+.linkPage:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    
+}
+.linkOutDiv{
+    background-color:gray ;
+    border-radius: 10px;
+        margin-top: 2px;
+        height: 45px;
+        padding-top: 5px;
+        
+}
+h1{
+    margin: 0px;
+}
+.radius{
+    border-radius: 10px;
+}
+a{
+    color: rgb(16, 150, 233);
+}
+.childlink{
+    width: 40px;
+    border: solid 1px rgb(255, 0, 221);
+    color: white;
+}
